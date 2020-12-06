@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+li{
+	width: 300px;
+	border: 1px solid #fb56bf;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+ul li span{
+	font-size: 23px;
+	color: #4a4a4a;
+	display: block;
+	margin-bottom: 15px;
+}
+
+ul li h1{
+	font-size: 19px;
+	color: #962f4b;
+	margin-bottom: 15px;
+}
+
+ul li h2{
+	font-size: 19px;
+	color: #4f4f4f;
+	margin-bottom: 15px;
+}
+
+ul li p{
+	color: #9b9b9b;
+	line-height: 1.5;
+}
+/*針對li所做的相關設定*/
+
+.timeline{
+	position: relative;
+	margin-top: 10%;
+}
+
+.timeline::after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	height: 110%;
+	background-color: gray;
+	top: 0;
+	bottom: 0;
+    margin-top: -30px;
+	left: 50%;
+	z-index: -1;
+}
+
+.timeline .dot-start{
+	position: absolute;
+	top: -50px;
+}
+
+.timeline .dot-timeItem{
+	position: absolute;
+	margin-top: -5px;
+}
+
+.timeline .right{
+	margin-right: 140px;
+}
+
+.timeline .left{
+	margin-left: 140px;
+}
+
+/*交錯排列設定使用flex*/
+.right{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.left{
+	display: flex;
+	flex-direction: row;
+}
+/*交錯排列設定使用flex*/
+
+img{
+	width: 24px;
+	height: 28px;
+	margin-left: 49%;
+}
+
+.line-bottom{
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 3px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
