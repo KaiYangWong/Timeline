@@ -12,14 +12,17 @@
 
 補充:
 * 時間軸的結構不見得一定要使用ul,li，也可以使用其他結構做出來
+* 需要花點時間了解的地方有絕對定位、相對定位、z-index、偽類別和偽元素
 
-參考的文章和影片:
+# 參考的文章和影片:
 * https://leahlin912.github.io/2019/04/02/CSS-%E5%88%BB%E5%87%BA%E4%B8%80%E5%80%8Btimeline/ 
   <br>
   css刻出一個timeline
 
 * https://www.youtube.com/watch?v=AiR22hCQOGs
+  <br>
   金魚都能懂的網頁切版 : 時間軸 NO019
+  
   
 
 
