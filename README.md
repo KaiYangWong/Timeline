@@ -10,4 +10,15 @@
 1. 把時間軸的點加上去
 1. 最後，在做一些微調
 
+補充:
+* 時間軸的結構不見得一定要使用ul,li，也可以使用其他結構做出來
+
+參考的文章和影片:
+* https://leahlin912.github.io/2019/04/02/CSS-%E5%88%BB%E5%87%BA%E4%B8%80%E5%80%8Btimeline/ 
+  css刻出一個timeline
+
+* https://www.youtube.com/watch?v=AiR22hCQOGs
+  金魚都能懂的網頁切版 : 時間軸 NO019
+  
+
 
